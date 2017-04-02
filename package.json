@@ -1,0 +1,23 @@
+{
+  "name": "estagio",
+  "version": "1.0.0",
+  "description": "Projeto de estagio UNIARP 2017",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zenojr/estagio.git"
+  },
+  "author": "Zeno França Jr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zenojr/estagio/issues"
+  },
+  "homepage": "https://github.com/zenojr/estagio#readme",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  }
+}
