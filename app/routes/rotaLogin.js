@@ -10,7 +10,7 @@ module.exports = function(app){
 		});
 
 		connection.query('select * from usuario', function(err, results){
-			res.render('login');
+			res.render('login', {lista:results});
 		});
 
 		connection.end();
